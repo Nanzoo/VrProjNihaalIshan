@@ -1,5 +1,42 @@
 import java.lang.Math;
 
+
+interface QInterface 
+{ 
+    public void qTime(float numOne, float numTwo); 
+} 
+ 
+public class QRun
+  {
+    public QRun()
+    {
+      QInterface qI = (float numOne, float numTwo)->
+        {
+          float div = numOne/numTwo;
+          System.out.printf(" %.3f",div); 
+        };
+        qI.qTime(8,3);
+    }
+    public static void main(String[]args)
+    {
+      QRun app = new QRun();
+    }
+
+
+    
+  }
+//{ 
+    //public void qTime(float numOne, float numTwo) 
+   // { 
+    //    float quo = numOne/numTwo; 
+         
+     //   System.out.printf(" %.3f",quo); 
+ 
+   // } 
+//} 
+ 
+
+
 public interface Square{
 
 	public boolean checker(int x);
