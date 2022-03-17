@@ -1,11 +1,11 @@
 import java.lang.Math;
 
 
-interface QInterface 
-{ 
-    public void qTime(float numOne, float numTwo); 
-} 
- 
+interface QInterface
+{
+    public void qTime(float numOne, float numTwo);
+}
+
 public class QRun
   {
     public QRun()
@@ -13,7 +13,7 @@ public class QRun
       QInterface qI = (float numOne, float numTwo)->
         {
           float div = numOne/numTwo;
-          System.out.printf(" %.3f",div); 
+          System.out.printf(" %.3f",div);
         };
         qI.qTime(8,3);
     }
@@ -23,18 +23,18 @@ public class QRun
     }
 
 
-    
+
   }
-//{ 
-    //public void qTime(float numOne, float numTwo) 
-   // { 
-    //    float quo = numOne/numTwo; 
-         
-     //   System.out.printf(" %.3f",quo); 
- 
-   // } 
-//} 
- 
+//{
+    //public void qTime(float numOne, float numTwo)
+   // {
+    //    float quo = numOne/numTwo;
+
+     //   System.out.printf(" %.3f",quo);
+
+   // }
+//}
+
 
 
 public interface Square{
@@ -72,3 +72,20 @@ public class squareRunner{
 		}
 
 }
+
+/*
+//Comments Partner A
+- Learned how to work collaboratively using GitKraken
+- I learned how to create branches and maintain changes while Nihaal was simultaneously working on his work
+- I learned how to resolve conflicts while merging branches with Nihaal
+
+
+
+
+
+
+*/
+
+
+
+
