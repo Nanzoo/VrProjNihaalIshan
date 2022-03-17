@@ -79,6 +79,11 @@ public class squareRunner{
 - I learned how to create branches and maintain changes while Nihaal was simultaneously working on his work
 - I learned how to resolve conflicts while merging branches with Nihaal
 
+//Comments Partner B
+- I learned that two people could be working together on different parts of a project and certain parts can be merged when they are ready
+- I learned how to go line by line when there is an issue with merging and resolve the issue
+- I learned the logistics of Git, Github, and GitKraken and how to use it to publish work
+
 
 
 
